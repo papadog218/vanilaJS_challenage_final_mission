@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+
+.form, .hello {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn, 0.5s linear;
+}
+
+.wrap {
+    color: #fff;
+    text-align: center;
+    border: 5px solid #fff;
+    margin: auto;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 50px;
+    position: relative;
+    top: 30%;
+    background-color: orangered;
+}
+.wrap .todoList {
+    width: 100%;
+}
+.wrap .todoList li {
+    width: 200px;
+    text-align: left;
+    margin-left: 110px;
+}
+
