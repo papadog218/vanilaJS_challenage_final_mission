@@ -5,6 +5,7 @@ const body = document.querySelector("body"),
 
 function handleImgLoad() {
     console.log("img is ready");
+    body.prepend(img);
 } // 원격에서 하는게 아니면 필요없다고 지워버림;;
 
 function paintImg(imgNum) {
@@ -12,7 +13,8 @@ function paintImg(imgNum) {
     img.src = `src/img/${imgNum}.jpg`;
     img.classList.add("bgImg");
     // appendChild()는 해당 태그안에 제일 밑에 생성된다 (제일 위에는 prepend())
-    body.prepend(img); 
+    // body.prepend(img);
+    
     // 원격에서 하는게 아니면 필요없다고 지워버림;;
     img.addEventListener("loadend", handleImgLoad); 
 }
