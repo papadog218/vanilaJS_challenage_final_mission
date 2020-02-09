@@ -37,7 +37,7 @@ html, body {
 .wrap {
     color: #fff;
     text-align: center;
-    border: 5px solid #fff;
+    border: 5px solid cadetblue;
     margin: auto;
     width: 400px;
     font-size: 20px;
@@ -45,6 +45,7 @@ html, body {
     position: relative;
     top: 30%;
     background-color: orangered;
+    padding: 20px 0;
 }
 .wrap .todoList {
     width: 100%;
@@ -53,5 +54,10 @@ html, body {
     width: 200px;
     text-align: left;
     margin-left: 110px;
+}
+.weather {
+    display: block;
+    height: 27px;
+    /* content: ""; */
 }
 
