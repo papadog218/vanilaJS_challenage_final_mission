@@ -12,7 +12,7 @@ function paintImg(imgNum) {
     img.src = `src/img/${imgNum}.jpg`;
     img.classList.add("bgImg");
     // appendChild()는 해당 태그안에 제일 밑에 생성된다 (제일 위에는 prepend())
-    body.prepend(img);
+    // body.prepend(img);
 
     body.addEventListener("loadend", handleImgLoad);
 }
