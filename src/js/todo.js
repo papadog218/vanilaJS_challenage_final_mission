@@ -1,13 +1,8 @@
 const todoForm = document.querySelector(".js-todoForm"),
     todoInput = todoForm.querySelector("input"),
     todoList = document.querySelector(".js-todoList");
-
 const TODOS_LS = "todos";
-
 let todos = [];
-
-
-
 
 function delTodo(e) {
     const btn = e.target;
