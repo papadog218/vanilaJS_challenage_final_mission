@@ -44,6 +44,7 @@ html, body {
     position: relative;
     top: 30%;
     padding: 20px 0;
+    transition: all 1s ease-in-out;
 }
 .wrap:hover {
     border: 5px solid cadetblue;
