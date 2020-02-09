@@ -45,6 +45,10 @@ html, body {
     top: 30%;
     padding: 20px 0;
 }
+.wrap:hover {
+    border: 5px solid cadetblue;
+    background-color: orangered;
+}
 .wrap .todoList {
     width: 100%;
 }
