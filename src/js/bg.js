@@ -14,7 +14,7 @@ function paintImg(imgNum) {
     // appendChild()는 해당 태그안에 제일 밑에 생성된다 (제일 위에는 prepend())
     body.prepend(img);
 
-    img.addEventListener("loadend", handleImgLoad);
+    img.addEventListener("load", handleImgLoad);
 }
 function getRandom() {
     const num = Math.floor(Math.random()*IMG_NUM) + 1;
